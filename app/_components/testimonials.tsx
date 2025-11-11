@@ -63,7 +63,7 @@ export function Testimonials() {
                                                 />
                                             </div>
 
-                                            <p className="text-center px-16 text-gray-200"> {item.content} </p>
+                                            <p className="text-center py-4 md:px-16 text-gray-200"> {item.content} </p>
 
                                             <div className="flex gap-5 justify-center">
                                                 <p className=" text-sm text-gray-300" >{item.author}</p>
