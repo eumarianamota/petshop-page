@@ -62,9 +62,9 @@ export function Services () {
     return (
         <section className="bg-white py-16">
             <div className="container px-4 mx-auto">
-                <h2 className='text-4xl font-bold text-center mb-12'>Serviços</h2>
+                <h2 className='text-4xl font-bold text-center mb-12' data-aos="fade-down">Serviços</h2>
 
-                <div className="relative">
+                <div className="relative" data-aos="zoom-in-up">
                     <div className="overflow-hidden" ref={emblaRef}>
                         <div className="flex">
                             {services.map((item, index) => (
@@ -89,7 +89,7 @@ export function Services () {
                                         <div>
                                             <a 
                                             target='_blank'
-                                            href="https://wa.me/5586999641994?text=Olá vim pelo seu site e gostaria de mais informações"
+                                            href="https://wa.me/556799998800?text=Olá, Mariana, tudo bem? Vim pela landing page de Petshop desenvolvida por você."
                                             className='flex items-center justify-center gap-2 hover:bd-red-500 px-4 py-1 rounded-md duration-300'>
                                                 <WhatsappLogoIcon />
                                                 Entrar em contato

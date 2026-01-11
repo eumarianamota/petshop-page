@@ -9,7 +9,7 @@ export function About () {
         <section className='bg-[#FDF6ec] py-16'>
             <div className="container px-4 mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                    <div className="relative">
+                    <div className="relative" data-aos="zoom-in-up">
                         <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
                             <Image 
                                 src={about1Img}
@@ -32,9 +32,9 @@ export function About () {
                     </div>
 
                     <div className="space-y-6 mt-10">
-                        <h2 className='text-4xl font-bold'>SOBRE</h2>
-                        <p>Until one has loved an animal, a part of one's soul remain unawakened. We believe in it and we believe in easy access to things that are good for our mind, body nd spirit. With a clever offering, superb support and a secure checkout you are in good hands.</p>
-
+                        <h2 className='text-4xl font-bold' data-aos="fade-down">SOBRE</h2>
+                        <p>Nós acreditamos que pets não são apenas animais de estimação, são membros da família. Nossa história começou com um desejo simples: criar um refúgio onde a saúde e a felicidade dos animais fossem a prioridade absoluta.</p>
+                        
                         <ul className='space-y-4'>
                             <li className='flex items-enter gap-2'>
                                 <Check className='text-red-500' />
@@ -55,7 +55,7 @@ export function About () {
                         <div className="flex gap-2">
                             <a 
                             target='_blank'
-                            href={`https://wa.me/5586999641994?text=Olá vim pelo seu site e gostaria de mais informações`}
+                            href={`https://wa.me/556799998800?text=Olá, Mariana, tudo bem? \nVim pela landing page de Petshop desenvolvida por você.`}
                             className='bg-[#e84c3d] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md hover:scale-102 duration-300'>
                                 <WhatsappLogoIcon className='w-5 h-5 text-white'/> Contato via Whatsapp
                             </a>

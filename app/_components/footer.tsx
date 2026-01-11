@@ -4,7 +4,8 @@ import royal from "@/public/royal.png"
 import primier from "@/public/primier.png"
 import natural from "@/public/natural.png"
 import Image from "next/image"
-import { FacebookLogoIcon, InstagramLogoIcon, YoutubeLogoIcon } from "@phosphor-icons/react/dist/ssr" 
+import { InstagramLogoIcon } from "@phosphor-icons/react/dist/ssr" 
+import { GithubLogoIcon, LinkedinLogoIcon } from "@phosphor-icons/react/dist/ssr"
 
 const brands = [
     { name: "Royal Canin", logo: royal },
@@ -20,9 +21,9 @@ export function Footer() {
         <section className="bg-[#E84c3d] py-16 text-white">
             <div className="container mx-auto px-4">
                 <div className="border-b border-white/20 pb-8">
-                    <h4 className="text-3xl font-semibold mb-8 text-center">Marcas que trabalhamos</h4>
+                    <h4 className="text-3xl font-semibold mb-8 text-center" data-aos="fade-down">Marcas que trabalhamos</h4>
 
-                    <div className="grid grid-cols-2 lg:grid-cols-6 gap-8">
+                    <div className="grid grid-cols-2 lg:grid-cols-6 gap-8" data-aos="zoom-in-up">
                         {brands.map((item, index) => (
                             <div key={index}>
                                 < Image 
@@ -49,7 +50,7 @@ export function Footer() {
                         <a 
                         className=""
                         target="_blank"
-                        href="https://wa.me/558699641994?text=Olá, gostaria de saber mais sobre os serviços do petshop"
+                        href={`https://wa.me/556799998800?text=Olá, Mariana, tudo bem? \nVim pela landing page de Petshop desenvolvida por você.`}
                         >
                             Contato via Whatsapp
                         </a>
@@ -68,15 +69,15 @@ export function Footer() {
                             <a 
                             className=""
                             target="_blank"
-                            href="#"
+                            href="https://www.linkedin.com/in/eumarianamota/"
                             >
-                                <FacebookLogoIcon className="w-8 h-8"/>
+                                <LinkedinLogoIcon className="w-8 h-8"/>
                             </a>
 
                             <a 
                             className=""
                             target="_blank"
-                            href="#"
+                            href="https://www.instagram.com/eumariana.dev/"
                             >
                                 <InstagramLogoIcon className="w-8 h-8"/>
                             </a>
@@ -84,9 +85,9 @@ export function Footer() {
                             <a 
                             className=""
                             target="_blank"
-                            href="#"
+                            href="https://github.com/eumarianamota/"
                             >
-                                <YoutubeLogoIcon className="w-8 h-8"/>
+                                <GithubLogoIcon className="w-8 h-8"/>
                             </a>
                         </div>    
                     </div>
