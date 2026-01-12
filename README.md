@@ -10,7 +10,7 @@ Este projeto é uma landing page moderna desenvolvida para promover um PetShop l
 ## 2. Como visualizar o projeto
 
 Você pode conferir o projeto online através do link abaixo:
-🔗 [Acessar site do Petshop]([https://terra-azul.vercel.app/](https://petshop-page.vercel.app/))
+🔗 [Acessar site do Petshop](https://petshop-page.vercel.app/)
 
 Ou rodar o código localmente:
 1. Clone o repositório: `git clone https://github.com/eumarianamota/page-terra-azul.git`
